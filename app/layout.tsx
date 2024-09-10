@@ -30,6 +30,9 @@ export default function RootLayout({
             }}
         >
             <html lang="en" suppressHydrationWarning>
+                <head>
+                    <title>Live Docs</title>
+                </head>
                 <body
                     className={cn(
                         "min-h-screen font-sans antialiased",
